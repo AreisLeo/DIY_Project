@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for 123123 after application launch.
+    // Override point for 12asdasd3123 after application launch.
     return YES;
 }
 
