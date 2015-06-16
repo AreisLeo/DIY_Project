@@ -40,6 +40,7 @@
 		04BFE85B1B3041C800230E51 /* DIY_doYourselfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIY_doYourselfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BFE8601B3041C800230E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BFE8611B3041C800230E51 /* DIY_doYourselfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIY_doYourselfTests.m; sourceTree = "<group>"; };
+		04BFE86B1B30447100230E51 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 			children = (
 				04BFE8461B3041C800230E51 /* Info.plist */,
 				04BFE8471B3041C800230E51 /* main.m */,
+				04BFE86B1B30447100230E51 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -345,6 +347,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DIY_doYourself/PrefixHeader.pch;
 				INFOPLIST_FILE = DIY_doYourself/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +359,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DIY_doYourself/PrefixHeader.pch;
 				INFOPLIST_FILE = DIY_doYourself/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +420,7 @@
 				04BFE8671B3041C800230E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BFE8681B3041C800230E51 /* Build configuration list for PBXNativeTarget "DIY_doYourselfTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				04BFE86A1B3041C800230E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
